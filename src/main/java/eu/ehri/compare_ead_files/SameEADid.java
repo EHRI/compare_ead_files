@@ -9,6 +9,13 @@ import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.XMLEvent;
 
+
+/**
+ * Check whether the two files are two versions of the same EAD file
+ * 
+ * @author Kepa J. Rodriguez (https://github.com/KepaJRodriguez)
+ */
+
 public class SameEADid {
 
 	public boolean hasSameEADid(String EADfile1, String EADfile2)

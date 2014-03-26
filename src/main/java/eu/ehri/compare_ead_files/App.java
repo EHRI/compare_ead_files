@@ -8,7 +8,7 @@ import javax.xml.stream.FactoryConfigurationError;
 import javax.xml.stream.XMLStreamException;
 
 /**
- * Detect differences between two versions of the same EAD file
+ * Detects differences between two versions of the same EAD file
  * 
  * @author Kepa J. Rodriguez (https://github.com/KepaJRodriguez)
  */

@@ -2,8 +2,17 @@ package eu.ehri.compare_ead_files;
 
 import java.util.HashMap;
 
-public class CompareNodeHashes {
+/**
+ * Takes two hashes representing two versions of the EAD file and
+ * looks for differences
+ * 
+ * @author Kepa J. Rodriguez (https://github.com/KepaJRodriguez)
+ */
 
+
+public class CompareNodeHashes {
+	
+	
 	public static String compareNodeHashes(HashMap<String, String> ead1,
 			HashMap<String, String> ead2) {
 

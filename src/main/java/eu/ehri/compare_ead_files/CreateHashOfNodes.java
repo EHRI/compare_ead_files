@@ -13,6 +13,13 @@ import javax.xml.stream.events.XMLEvent;
 
 import javax.xml.stream.events.Attribute;
 
+/**
+ * Represents an EAD file as a hash of paths of a node and 
+ * identifiers
+ * 
+ * @author Kepa J. Rodriguez (https://github.com/KepaJRodriguez)
+ */
+
 public class CreateHashOfNodes {
 
 	public static HashMap<String, String> createHashOfNodes(String eadfile)
