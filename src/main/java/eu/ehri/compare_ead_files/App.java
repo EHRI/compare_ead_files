@@ -2,7 +2,6 @@ package eu.ehri.compare_ead_files;
 
 import java.io.FileNotFoundException;
 import java.util.HashMap;
-import java.util.List;
 
 import javax.xml.stream.FactoryConfigurationError;
 import javax.xml.stream.XMLStreamException;
